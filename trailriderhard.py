@@ -8,7 +8,7 @@ Keep track of your health and food. If either of these reach zero then GAME OVER
 Keep Track of the weather!
     If its snowy you are more likely to get sick!
     If it stormy then your shelter can be detroyed!
-Be mindful fo your shelter!
+Be mindful of your shelter!
     If your shelter is destroyed then you are more likley to get sick.
 If you are sick or if your shelter is destory no worries!
     There is a 20% chance of finding a village!
