@@ -20,6 +20,7 @@ Author: BluHerron
 Date: September 8, 2023
 """
 
+#Initialize Game
 while True:
     import random
     # Initialize game variables

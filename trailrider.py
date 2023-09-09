@@ -1,10 +1,8 @@
 """
-Survival Game - A simple text-based survival game.
+Teaching myself to code, while relying heavily on ChatGPT.
+This is the base game that ChatGPT provided me.
 
-This script allows the player to embark on a survival journey, making choices
-to continue on the trail, hunt for food, rest, or quit the game.
-
-Author: Your Name
+Author: BluHerron
 Date: September 8, 2023
 """
 
