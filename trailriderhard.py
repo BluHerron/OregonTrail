@@ -1,10 +1,22 @@
 """
 Survival Game - A simple text-based survival game.
 
-This script allows the player to embark on a survival journey, making choices
-to continue on the trail, hunt for food, rest, or quit the game.
+The Goal is to Travel 1000 Miles
+Keep track of your health and food. If either of these reach zero then GAME OVER. 
+    You can hunt, just... beware of bears!
+    You can rest to gain heath!
+Keep Track of the weather!
+    If its snowy you are more likely to get sick!
+    If it stormy then your shelter can be detroyed!
+Be mindful fo your shelter!
+    If your shelter is destroyed then you are more likley to get sick.
+If you are sick or if your shelter is destory no worries!
+    There is a 20% chance of finding a village!
+        In the village you have the option to trade food for cures and a restored shelter! 
 
-Author: Your Name
+Good Luck!
+
+Author: BluHerron
 Date: September 8, 2023
 """
 
@@ -76,9 +88,6 @@ while True:
                 print(
                     f"Congratulations, {PLAYER_NAME}! You completed the journey.")
                 break
-
-            # Add a line to separate turns
-            print("-" * 40)  # Prints 40 dashes as a separator
 
         if choice == '2':
             # Hunt for food
@@ -185,11 +194,15 @@ while True:
             elif village_choice == '3':
                 print("You left the village.")
 
+
         elif choice == '6':
             # Quit the game
             print(
                 f"Thanks for playing, {PLAYER_NAME}! You traveled a total of {MILEAGE} miles.")
             break
+
+        # Add a line to separate turns
+        print("-" * 40)  # Prints 40 dashes as a separator
 
     # Check for game over conditions
     if FOOD_SUPPLY <= 0:
